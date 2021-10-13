@@ -10,11 +10,11 @@
         android:id="@+id/button"
         android:layout_width="160dp"
         android:layout_height="49dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:onClick="crearFila"
         android:text="@string/textoBoton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,5 +31,17 @@
 
 
     </TableLayout>
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="borrarFilas"
+        android:text="Borrar todas las filas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
